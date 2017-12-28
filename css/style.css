@@ -1,0 +1,42 @@
+.main {
+	font-family: 'Lato', sans-serif;
+	font-size: 3vw;
+	margin: auto;
+	width: 75%;
+	padding: 10px;
+}
+
+.more {
+	font-size: 2vw;
+}
+
+body {
+	background: #EEEEEE;
+}
+
+a {
+	color: #00B16A;
+	text-decoration: none;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

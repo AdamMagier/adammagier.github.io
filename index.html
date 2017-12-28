@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Another site on the web">
+        <meta name="author" content="Adam Magier">
+        <title>Welcome! | Adam Magier</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+            <script src="js/jquery.js"></script>	
+    <script src="js/typed.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div>Hello! Welcome to my website!</div>
+            <script>
+                $(function(){
+                    $(".element").typed({
+                        strings: ["an achiever", "a systems programer", "a go-getter", "a self proclaimed \'hardware guy\'", "an avid knitter", "an augmented reality enthusiast", "a teacher", "an optimizer", "a music listener", "an OS builder", "a hard worker", "a guy who doesn't know web dev", " - scratch that, a guy who DOES know web dev"],
+                        typeSpeed: 90,
+                        loop: true,
+                        shuffle: false,
+                        cursorChar: "_"
+                    });
+                });
+            </script>
+
+            I am <span class="element"></span>
+            <div>&nbsp;</div>
+            <div class="more">
+				<div>I am pursuing a BS in Electrical Engineering with a Minor in Computer Science at the University of Illinois</div>
+                <div>Currently, I am both a Teaching Assistant for ECE 391 as well as a part-time SWE Intern at Personify, Inc.</div>
+                <div>Before that, I was an SWE intern at Visual Trading Systems.</div>
+                <div>At the moment, I'm either doing homework or writing AutoHotkey scripts to make my homework easier.</div>
+                <div>You can access a copy of my  <a href="static/AdamMagierResume.pdf">here</a></div>
+                <!--div>A page of a bunch of stuff I've done is <a href="info.html">there</a>.</div-->
+                <div>Feel free contact me <a href="mailto:adam.a.magier@gmail.com">here</a>.</div>
+            </div>
+        </div>
+    </body>
+</html>
