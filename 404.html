@@ -32,11 +32,11 @@ permalink: /404.html
                 dayOfWeekPast = weekdays[dayOfWeekPastNumber];
             }
 
-            if ((hourOfDay >= 0) && (hourOfDay <= 4)){
-                timeOfDay = "dawn";
-            } else if ((hourOfDay >= 4) && (hourOfDay < 11)){
+            if ((hourOfDay >= 0) && (hourOfDay < 6)){
+                timeOfDay = "night";
+            } else if ((hourOfDay >= 6) && (hourOfDay < 12)){
                 timeOfDay = "morning";
-            } else if ((hourOfDay >= 11) && (hourOfDay < 16)){
+            } else if ((hourOfDay >= 12) && (hourOfDay < 17)){
                 timeOfDay = "afternoon";
             } else if ((hourOfDay >= 16) && (hourOfDay < 20)){
                 timeOfDay = "evening";
